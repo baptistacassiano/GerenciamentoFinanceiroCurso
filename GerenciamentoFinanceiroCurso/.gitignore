@@ -1,0 +1,43 @@
+# Arquivos e pastas gerados pelo Visual Studio
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de build e pacotes
+*.csproj.user
+*.pdb
+*.exe
+*.dll
+packages/
+*.nupkg
+
+# Pastas de dependências
+node_modules/
+wwwroot/lib/
+
+# Arquivos de configuração sensíveis
+appsettings.Development.json
+appsettings.*.json  # Ignora variações locais, mas mantenha appsettings.json se for genérico
+
+# Arquivos de cache e temporários
+*.cache
+*.log
+*.vs/
+.vscode/
+.idea/
+
+# Banco de dados local e migrations temporárias (opcional)
+*.mdf
+*.ldf
+# Data/Migrations/  # Descomente se preferir ignorar migrations
+
+# Arquivos de ambiente local
+.env
+*.env
+
+# Outros
+Thumbs.db
+*.DS_Store
